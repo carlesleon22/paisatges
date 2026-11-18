@@ -1,2 +1,4 @@
 FROM nginx:1.26
-user = 10890469
+LABEL user="10890469"
+COPY . /usr/share/nginx/html/
+
